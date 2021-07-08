@@ -128,7 +128,7 @@ p {
     color: white;
     min-height: 55vh;
     padding: 80px 50px;
-    background: url('/assets/images/homepage-bg1.jpg') no-repeat fixed,
+    background: url('../images/homepage-bg1.jpg') no-repeat fixed,
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ;
     background-blend-mode: overlay;
     background-size: cover;
