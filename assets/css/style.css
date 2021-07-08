@@ -1,4 +1,4 @@
-/* @import url(assets/images); */
+@import url('assets/images');
 
 body, html {
     margin: 0;
@@ -56,9 +56,9 @@ p {
     color: white;
 }
 
-.above-header ul li a:before {
-    /* content: " ytes "; */
-}
+/* .above-header ul li a:before {
+   
+} */
 
 /* ABOVE HEADER END */
 
@@ -128,7 +128,7 @@ p {
     color: white;
     min-height: 55vh;
     padding: 80px 50px;
-    background: url(assets/images/homepage-bg1.jpg),
+    background: url('assets/images/homepage-bg1.jpeg'),
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-blend-mode: overlay;
     background-size: cover;
