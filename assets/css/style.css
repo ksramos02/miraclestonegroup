@@ -1,5 +1,27 @@
-@import url('assets/images');
+/* ===========================
+Index Of css
 
+01. Common CSS
+02. Header CSS
+03. Hero CSS
+04. About CSS
+05. Service CSS
+06. Process CSS
+07. Pricing CSS
+08. Testimonial CSS
+09. Team CSS
+10. Subscribe CSS
+11. Blog CSS
+12. Contact CSS
+13. Footer CSS
+
+========================== */
+
+
+/*===========================
+    01. Common CSS
+===========================*/
+@import url("https://fonts.googleapis.com/css?family=Teko");
 body, html {
     margin: 0;
     scroll-behavior: smooth;
@@ -16,13 +38,48 @@ h1 {
 
 p {
     line-height: 1.6em;
-    font-size: 18px;
+    font-size: 17px;
     width: 100%;
     max-width: 600px;
 }
 
+/*===== All Button Style =====*/
+.menu-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 16px 48px;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 5;
+    transition: all .4s ease-in-out;
+    border: none;
+    background: linear-gradient(90deg, rgba(255,224,145,1) 0%, rgba(255,184,3,1) 35%, rgba(255,184,3,1) 100%);
+    background-size: 200% auto;
+    overflow: hidden;
+  }
 
-/* ABOVE HEADER START */
+  .menu-btn:hover, .menu-btn:focus {
+    background-position: right center;
+    color: #fff;
+  }
+  
+  /* .menu-btn.border-btn {
+    padding: 14px 40px;
+    background: transparent;
+    border: 1.5px solid #ED213A;
+    color: #6A7C92;
+    font-size: 18px;
+    box-shadow: none;
+  } */
+
+/*===========================
+    02. Above Header
+===========================*/
 .above-header {
     display: flex;
     /* justify-content: space-between; */
@@ -147,3 +204,29 @@ p {
 .first-sect .first-cnt p {
     margin-top: -30px;
 }
+
+.affordable-section {
+    display: flex;
+    padding: 80px 50px;
+    /* padding-bottom: 0 !important; */
+    /* justify-content: flex-start; */
+    align-items: center;
+    color: #000D3A;
+}
+
+.affordable-section img {
+    width: 600px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.mission-vision {
+    display: flex;
+    padding: 40px 50px 0 50px;
+}
+
+.affordable-btn {
+    display: flex;
+    justify-content: center;
+}
+
