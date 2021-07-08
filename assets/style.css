@@ -33,7 +33,7 @@ p {
 .above-header ul{
     display: flex;
     gap: 20px;
-
+    align-items: center;
 }
 
 .above-header .callus-txt {
@@ -42,7 +42,7 @@ p {
     letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .above-header ul li {
@@ -121,8 +121,10 @@ p {
 }
 
 .first-sect {
+    padding: 0;
+    margin: 0;
     color: white;
-    min-height: 70vh;
+    min-height: 55vh;
     padding: 80px 50px;
     background: url('/assets/images/homepage-bg1.jpg'),
     linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
@@ -138,4 +140,10 @@ p {
     font-family: 'Teko';
     letter-spacing: 1em;
     color: #FFB803;
+    margin-bottom: -35px;
+    margin-left: 2px;
+}
+
+.first-sect .first-cnt p {
+    margin-top: -30px;
 }
