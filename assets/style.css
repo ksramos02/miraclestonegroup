@@ -1,0 +1,141 @@
+body, html {
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto';
+}
+
+h1 {
+    font-family: 'Teko';
+    line-height: 1em;
+    font-size: 4vw;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+p {
+    line-height: 1.6em;
+    font-size: 18px;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+/* ABOVE HEADER START */
+.above-header {
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0px 50px;
+    background-color: #000B33;
+    align-items: center;
+    color: white;
+}
+
+.above-header ul{
+    display: flex;
+    gap: 20px;
+
+}
+
+.above-header .callus-txt {
+    font-family: 'Teko';
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.above-header ul li {
+    list-style-type: none;
+}
+
+.above-header ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.above-header ul li a:before {
+    /* content: " ytes "; */
+}
+
+/* ABOVE HEADER END */
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 40px;
+    border-bottom: solid 2px rgba(0, 0, 0, 0.11);
+
+}
+
+.navbar .header-left img {
+    height: 70px;
+}
+
+.navbar .header-right {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+.navbar .header-right ul {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .header-right ul li {
+    list-style: none;
+    font-family: 'Teko';
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+} 
+
+.navbar .header-right ul li a{
+    text-decoration: none;
+    color: #000;
+    
+}
+
+.navbar .header-right ul li a:hover{
+    color: #FFB803;
+    
+}
+
+.menu-btn {
+    padding: 15px 30px;
+    background-color: #FFB803;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: 'Helvetica';
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.menu-btn:hover {
+    background-color: #000D3A;
+}
+
+.first-sect {
+    color: white;
+    min-height: 70vh;
+    padding: 80px 50px;
+    background: url('/assets/images/homepage-bg1.jpg'),
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:50%;
+}
+
+
+.first-sect .first-cnt h3 {
+    font-family: 'Teko';
+    letter-spacing: 1em;
+    color: #FFB803;
+}
