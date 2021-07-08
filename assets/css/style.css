@@ -2,18 +2,18 @@
 Index Of css
 
 01. Common CSS
-02. Header CSS
-03. Hero CSS
-04. About CSS
-05. Service CSS
-06. Process CSS
-07. Pricing CSS
-08. Testimonial CSS
-09. Team CSS
-10. Subscribe CSS
-11. Blog CSS
-12. Contact CSS
-13. Footer CSS
+02.  CSS
+03.  CSS
+04.  CSS
+05.  CSS
+06.  CSS
+07.  CSS
+08.  CSS
+09.  CSS
+10.  CSS
+11.  CSS
+12.  CSS
+13.  CSS
 
 ========================== */
 
@@ -52,15 +52,17 @@ p {
     vertical-align: middle;
     user-select: none;
     padding: 16px 48px;
-    border-radius: 50px;
-    color: #fff;
+    /* border-radius: 50px; */
+    color: #fff;  
     cursor: pointer;
     z-index: 5;
     transition: all .4s ease-in-out;
     border: none;
-    background: linear-gradient(90deg, rgba(255,224,145,1) 0%, rgba(255,184,3,1) 35%, rgba(255,184,3,1) 100%);
+    background: linear-gradient(to left, #ffb700 0%, #ffd058 50.39%, #ffb700 100%);
     background-size: 200% auto;
-    overflow: hidden;
+    overflow: hidden;  
+    text-shadow: 0px 0px 10px #000000;
+    text-transform: uppercase;
   }
 
   .menu-btn:hover, .menu-btn:focus {
@@ -113,11 +115,9 @@ p {
     color: white;
 }
 
-/* .above-header ul li a:before {
-   
-} */
-
-/* ABOVE HEADER END */
+/*===========================
+    03. Header Menu
+===========================*/
 
 .navbar {
     display: flex;
@@ -163,7 +163,7 @@ p {
     
 }
 
-.menu-btn {
+/* .menu-btn {
     padding: 15px 30px;
     background-color: #FFB803;
     border: none;
@@ -177,7 +177,7 @@ p {
 
 .menu-btn:hover {
     background-color: #000D3A;
-}
+} */
 
 .first-sect {
     padding: 0;
@@ -197,18 +197,18 @@ p {
     font-family: 'Teko';
     letter-spacing: 1em;
     color: #FFB803;
-    margin-bottom: -35px;
+    margin-bottom: -3%;
     margin-left: 2px;
 }
 
 .first-sect .first-cnt p {
-    margin-top: -30px;
+    margin-top: -2%;
 }
 
 .affordable-section {
     display: flex;
     padding: 80px 50px;
-    /* padding-bottom: 0 !important; */
+    padding-bottom: 0 !important;
     /* justify-content: flex-start; */
     align-items: center;
     color: #000D3A;
@@ -228,5 +228,6 @@ p {
 .affordable-btn {
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
